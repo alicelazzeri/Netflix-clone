@@ -131,4 +131,27 @@ input[type="checkbox"] {
 
 .movie-list {
   overflow: auto;
+  scroll-behavior: smooth;
+}
+.movie-cover {
+  object-fit: cover;
+  padding-left: 0.1rem;
+  padding-right: 0.1rem;
+}
+
+.movie-list::-webkit-scrollbar {
+  background-color: black;
+  height: 4px;
+  margin-top: 1rem;
+}
+
+.movie-list::-webkit-scrollbar-thumb {
+  background-color: rgba(173, 173, 173, 0.269);
+  border-radius: 5px;
+}
+
+@media screen and (max-width: 768px) {
+  .movie-list::-webkit-scrollbar {
+    display: none;
+  }
 }
