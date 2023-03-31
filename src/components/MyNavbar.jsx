@@ -90,7 +90,7 @@ class MyNavbar extends Component {
                 <div className="btn-group">
                   <button
                     type="button"
-                    class="btn dropdown-toggle text-secondary border-0"
+                    className="btn dropdown-toggle text-secondary border-0"
                     data-bs-toggle="dropdown"
                     aria-expanded="false"
                   >
@@ -98,8 +98,8 @@ class MyNavbar extends Component {
                   </button>
                   <ul className="dropdown-menu dropdown-menu-dark">
                     <li>
-                      <a class="dropdown-item" href="./profile.html">
-                        <div class="d-flex align-items-center">
+                      <a className="dropdown-item" href="./profile.html">
+                        <div className="d-flex align-items-center">
                           <img src={avatarSmall} id="avatar-small" alt="Avatar small" />
                           Epicoder #1
                         </div>
@@ -121,7 +121,7 @@ class MyNavbar extends Component {
                       </a>
                     </li>
                     <li>
-                      <hr classNameName="dropdown-divider" />
+                      <hr className="dropdown-divider" />
                     </li>
                     <li>
                       <a className="dropdown-item" href="#i">

@@ -37,7 +37,7 @@ class MyHome extends Component {
   render() {
     return (
       <div className="container-fluid">
-        <div class="text-center">
+        <div className="text-center">
           {this.state.isLoading && !this.state.error && (
             <Spinner animation="border" variant="danger" role="status">
               <span className="visually-hidden">Loading...</span>
